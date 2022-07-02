@@ -1,21 +1,31 @@
-.color{
+.boxhead {
+    background-color: #1F2937;
+}
 
+.bluecolor {
+    margin: 0 24px;
+    padding-bottom: 32px;
+}
 
+.boxmiddle {
+    background-color: white;
+}
+
+.whitecolor {
+    margin: 0 24px;
+    padding-bottom: 32px;
+}
+body {
+    /*remove grey color at end */
+    background-color: grey;
+    color: white;
+    margin: 0;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    background-color: #1F2937;
-}
-
-body {
-    background-color: grey;
-    color: white; 
-    margin: 0px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 ul {
@@ -36,10 +46,14 @@ a {
     color: white;
 }
 
-button {
+.sign1,
+.sign2 {
     background-color: #3882F6;
     color: white;
-    width: 72px;
+    width: 80px;
+    border-radius: 5px;
+    justify-content: center;
+    border: 0;
 }
 
 .topintro {
@@ -58,17 +72,25 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 }
 
 .textpic {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding:16px 24px;
 }
 
 .group {
     display: flex;
     flex-direction: column;
+    text-align: center;
+}
+
+img {
+    border: #3882F6 solid 1px;
+    border-radius: 5px;
 }
 
 .quote {
@@ -91,12 +113,13 @@ button {
     justify-content: flex-end;
 }
 
-.sign {
+.sign2 {
     display: flex;
     align-self: center;
+    border: white solid 1px;
 }
 
-.footer{
+.footer {
     display: flex;
     justify-content: center;
 }

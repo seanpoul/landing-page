@@ -1,17 +1,21 @@
+.color{
+
+
+}
+
 .header {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+    background-color: #1F2937;
 }
 
 body {
     background-color: grey;
-    color: white;
-}
-
-button {
-    background-color: #3882F6;
-    color: white;
-    width: 72px;
+    color: white; 
+    margin: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 ul {
@@ -32,9 +36,17 @@ a {
     color: white;
 }
 
-.top {
+button {
+    background-color: #3882F6;
+    color: white;
+    width: 72px;
+}
+
+.topintro {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
+
 }
 
 .leftside {
@@ -48,24 +60,43 @@ a {
     align-items: center;
 }
 
-.textpic{
+.textpic {
     display: flex;
     flex-direction: row;
     gap: 24px;
 }
 
-.group{
-    display: flex;
-    flex-direction: column;    
-}
-
-.quote{
+.group {
     display: flex;
     flex-direction: column;
 }
 
-.say-owner{
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.say-owner {
     display: flex;
     justify-content: flex-end;
 }
 
+.bottom {
+    display: flex;
+}
+
+.botf {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.sign {
+    display: flex;
+    align-self: center;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+}
